@@ -1,0 +1,2 @@
+hi I am ravi
+zsh: command not found: zecho
