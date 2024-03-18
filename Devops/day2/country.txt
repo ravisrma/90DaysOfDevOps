@@ -1,0 +1,5 @@
+Belgium, Brussels, 10
+France, Paris, 60
+Germany, Berlin, 100
+Iran, Teheran, 70
+Italy, Rome, 50

@@ -1,0 +1,2138 @@
+    1  ls -la
+    2  ls
+    3  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    4  ls
+    5  ls -la
+    6  cd .oh-my-zsh
+    7  ls
+    8  cd custom
+    9  ls
+   10  cd plugins
+   11  ls
+   12  cd
+   13  code ~/.zshrc
+   14  ls
+   15  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   16  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   17  code ~/.zshrc
+   18  sudo apt-get install gnome-tweak-tool
+   19  sudo apt update\n
+   20  sudo apt install gnome-tweaks
+   21  apt search extension-manager
+   22  apt install gnome-shell-extension-manager
+   23  sudo apt install gnome-shell-extension-manager
+   24  cd Downloads
+   25  ls
+   26  git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+   27  ls
+   28  cd WhiteSur-gtk-theme
+   29  ls
+   30  cd
+   31  sudo nautilus
+   32  cd WhiteSur-gtk-theme
+   33  ls
+   34  cd D
+   35  cd Downloads
+   36  ls
+   37  cd WhiteSur-gtk-theme
+   38  ls
+   39  ./install.sh -t all -N glassy
+   40  ./tweaks.sh -f Alt
+   41  ls
+   42  ./tweaks.sh -f Alt
+   43  ./tweaks.sh -f alt
+   44  ./tweaks.sh -f monterey
+   45  cd ..
+   46  ls
+   47  git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
+   48  ls
+   49  git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
+   50  ls
+   51  cd WhiteSur-icon-theme
+   52  ls
+   53  ./install.sh -a -b
+   54  ./install.sh -a
+   55  ./install.sh -a -b
+   56  sudo nautilus
+   57  ls
+   58  pwd
+   59  gem
+   60  sudo apt install bat
+   61  ls
+   62  bat   install.sh
+   63  mkdir -p ~/.local/bin\nln -s /usr/bin/batcat ~/.local/bin/bat
+   64  batcat install.sh
+   65  code ~/.zshrc
+   66  cat install.sh
+   67  ls
+   68  cat install.sh
+   69  cargo install lscolors
+   70  sudo apt install cargo
+   71  cargo install lscolors
+   72  lscolors **/*
+   73  ls
+   74  cd Downloads
+   75  ls
+   76  dpkg -i lscolors_0.17.0_amd64.deb
+   77  sudo dpkg -i lscolors_0.17.0_amd64.deb
+   78  lscolors
+   79  lscolors **/*
+   80  ld
+   81  wget "https://github.com/sharkdp/vivid/releases/download/v0.8.0/vivid_0.8.0_amd64.deb"\nsudo dpkg -i vivid_0.8.0_amd64.deb
+   82  code ~/.zshrc
+   83  tree -a
+   84  sudo apt install tree
+   85  tree -a
+   86  cd
+   87  ls
+   88  cd .config
+   89  ls
+   90  ls -a
+   91  ls
+   92  cd
+   93  cd /usr/share/vivid
+   94  cd /usr
+   95  ls
+   96  cd share
+   97  ls
+   98  cd
+   99  ls
+  100  ls -a
+  101  cd .config
+  102  ls
+  103  ls -a
+  104  ls
+  105  tree
+  106  find . -name vivid
+  107  cargo install vivid
+  108  ls
+  109  find / -type d -name vivid
+  110  find . -type d -name vivid
+  111  sudo su
+  112  ls -a
+  113  ls -al
+  114  cd .config
+  115  ls -alh
+  116  cd
+  117  cd Downloads
+  118  ls
+  119  dpkg -i vivid_0.8.0_amd64.deb
+  120  sudo dpkg -i vivid_0.8.0_amd64.deb
+  121  tree
+  122  ls
+  123  sudo dpkg -i logo-ls_amd64.deb
+  124  logo-ls
+  125  code ~/.zshrc
+  126  ls
+  127  ls -a
+  128  ls -alh
+  129  git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+  130  k
+  131  ls
+  132  vivid generate path/to/my_theme.yml
+  133  find . -type f -name my_theme.yml
+  134  sudo find / -type f -name my_theme.yml
+  135  sudo find . -type f -name *.yml
+  136  sudo su 
+  137  ls
+  138  pwd
+  139  ls
+  140  mkdir Devops
+  141  ls
+  142  ls -alh
+  143  tree .config
+  144  code ~/.p10k.zsh
+  145  p10k configure
+  146  ls
+  147  pwd
+  148  ls
+  149  git clone https://github.com/Godiesc/firefox-one.git
+  150  ls
+  151  cd Downloads
+  152  ls
+  153  cd WhiteSur-gtk-theme
+  154  ls
+  155  ./tweaks.sh -f monterey 
+  156  ls
+  157  rm -rf firefox-one
+  158  ls
+  159  history
+  160  code ~/.p10k.zsh
+  161  cd /etc
+  162  cd
+  163  sudo gem install colorls
+  164  sudo apt install ruby ruby-dev ruby-colorize
+  165  sudo gem install colorls
+  166  cd /var
+  167  cd lib
+  168  ls
+  169  cd gems
+  170  ls
+  171  cd 3.1.0
+  172  ls
+  173  cd extensions
+  174  ls
+  175  cd x86_64-linux
+  176  ls
+  177  cd 3.1.0
+  178  ls
+  179  cd clocale-0.0.4
+  180  ls
+  181  cat mkmf.log
+  182  pwd
+  183  cd
+  184  sudo apt install gcc make
+  185  sudo gem install colorls
+  186  colorls
+  187  code ~/.zshrc
+  188  ls
+  189  cd Devops
+  190  ls
+  191  code codeing.sh
+  192  chmod +x codeing.sh
+  193  ./codeing.sh day 1 90
+  194  ls
+  195  colorls
+  196  cd
+  197  code ~/.p10k.zsh
+  198  ls
+  199  cd Devops
+  200  ls
+  201  cd
+  202  ls -a
+  203  cd .oh-my-zsh
+  204  ls
+  205  cd themes
+  206  ls
+  207  cd
+  208  code ~/.zshrc
+  209  l
+  210  ls
+  211  code ~/.p10k.zsh
+  212  ls
+  213  cd D
+  214  cd Downloads
+  215  ls
+  216  cd WhiteSur-gtk-theme
+  217  ls
+  218  ld
+  219  ls
+  220  cd WhiteSur-gtk-theme
+  221  ls 
+  222  cd Do
+  223  cd Downloads
+  224  ls
+  225  cd WhiteSur-gtk-theme
+  226  ls
+  227  cd
+  228  cd Downloads
+  229  ls
+  230  cd
+  231  ls
+  232  cd Downloads
+  233  ls
+  234  cd WhiteSur-gtk-theme
+  235  ls
+  236  cd
+  237  ls
+  238  ls -a
+  239  cd .oh-my-zsh
+  240  ls
+  241  cd themes
+  242  ls
+  243  code dracula.zsh-theme
+  244  ls
+  245  cd Downloads
+  246  ls
+  247  cd Downloads
+  248  ls
+  249  pwd
+  250  cd Downloads
+  251  cd WhiteSur-gtk-theme
+  252  ls
+  253  cd
+  254  ls
+  255  colorls
+  256  cd
+  257  ls
+  258  cd Devops
+  259  ls
+  260  cd day5
+  261  ls
+  262  git --version
+  263  sudo apt update -y
+  264  ls
+  265  ls -a
+  266  git config --global user.name "ravi"
+  267  git config --global user.email ravisharma0527@gmai.com
+  268  git config list
+  269  git config --list
+  270  git config --global user.email ravisharma0527@gmail.com
+  271  git config --list
+  272  ls
+  273  mkdir first
+  274  ls
+  275  colorls
+  276  code ~/.zshrc
+  277  lc
+  278  lc -a
+  279  ls 
+  280  cd Devops
+  281  ls
+  282  cd day5
+  283  ls
+  284  lc
+  285  git init
+  286  ls
+  287  ls -a
+  288  cd
+  289  cd day5
+  290  cd
+  291  ls
+  292  cd Devops
+  293  ls
+  294  cd day5
+  295  ls
+  296  cd first
+  297  ls
+  298  cd
+  299  cd Devops
+  300  ls
+  301  rm -rf day5
+  302  mkdir day5
+  303  ls
+  304  cd day5
+  305  ls
+  306  mkdir first
+  307  cd first
+  308  ls
+  309  git init
+  310  ls
+  311  touch file1
+  312  code file1
+  313  cat file1
+  314  git status
+  315  git add .
+  316  git status
+  317  git commit -m "01"
+  318  git status
+  319  git log
+  320  git show  c0e43f4
+  321  git remote add origin https://github.com/ravisrma/Day5.git\ngit branch -M main\ngit push -u origin main
+  322  git remote add origin https://github.com/ravisrma/Day5.git
+  323  git branch -M main
+  324  git push -u origin main
+  325  ls
+  326  sudo apt update -y
+  327  sudo apt upgrade -y
+  328  ls
+  329  lc
+  330  cd Devops
+  331  ls
+  332  cd day5
+  333  ls
+  334  cd first
+  335  ls
+  336  sudo apt update -y
+  337  sudo apt upgrade -y
+  338  ls
+  339  cd Devops
+  340  ls
+  341  rm -rf codeing.sh
+  342  ls
+  343  wc -l
+  344  wc -w
+  345  cd ..
+  346  wc -l Devops
+  347  cd De
+  348  cd Devops
+  349  wc -l
+  350  ls | wc -l
+  351  ls |wc -w
+  352  ls -a | wc -l
+  353  ls 
+  354  ls -ls
+  355  ls -l
+  356  ls -l |wc -l
+  357  ls
+  358  cd Devops
+  359  sudo apt update -y
+  360  ls
+  361  cd day1
+  362  ls
+  363  pwd
+  364  cd /etc
+  365  cd ..
+  366  ls
+  367  cd
+  368  ls
+  369  cd Devops/day1
+  370  ls
+  371  cd
+  372  cd /boot/grub
+  373  ls
+  374  cd ..
+  375  cd /
+  376  ls
+  377  ls -l
+  378  lc -l
+  379  ls /etc
+  380  lc /etc
+  381  ls /bin /sbin
+  382  ls ~
+  383  ls -al ~
+  384  ls -lh /boot
+  385  ls /bin
+  386  lc /bin
+  387  file /bin/cat /etc/passwd /usr/bin/passwd
+  388  ls
+  389  cd
+  390  cd /Devops
+  391  cd
+  392  ls
+  393  cd Devops
+  394  ls
+  395  cd day1
+  396  touch wolf.txt linux.txt
+  397  mv wolf.txt wolf.json
+  398  ls
+  399  mkdir touched
+  400  cd touched
+  401  touch today.txt yesterday.txt
+  402  ls
+  403  lc
+  404  touch -t 202403091100 yesterday.txt
+  405  lc
+  406  ls -l
+  407  touch -t 202403081100 yesterday.txt
+  408  ls -l
+  409  ls
+  410  cp yesterday.txt copy.yesterday.txt
+  411  ls
+  412  sudo apt update -y
+  413  cd Devops
+  414  ls
+  415  cd day`
+  416  cd ay1
+  417  cd day1
+  418  ls
+  419  cd touched
+  420  ls
+  421  mv copy.yesterday.txt kim
+  422  ls
+  423  cd ..
+  424  ls
+  425  mkdir testbackup; cp -r touched testbackup
+  426  ls
+  427  cd testbackup
+  428  ls
+  429  cd touched
+  430  ls
+  431  cd ..
+  432  ;d
+  433  cd ..
+  434  ls 
+  435  rm -rf testbackup
+  436  ls
+  437  lc
+  438  mkdir etcbackup; cp -r /etc/*.conf etcbackup
+  439  ls
+  440  tree etcbackup
+  441  cd etcbackup
+  442  ;s
+  443  ls
+  444  lc
+  445  rename
+  446  cd
+  447  ls
+  448  cd Devops
+  449  ls
+  450  cd day1
+  451  ls
+  452  cd touched
+  453  ls
+  454  touch 1.conf 2.conf ; rename 's/conf/backup' *.conf
+  455  sudo apt install rename
+  456  touch 1.conf 2.conf ; rename 's/conf/backup' *.conf
+  457  ls
+  458  touch 1.conf 2.conf ; rename 's/conf/backup' *.conf
+  459  ls
+  460  touch 1.conf 2.conf ; rename 's/conf/backup/' *.conf
+  461  ls
+  462  history
+  463  head /etc
+  464  head /etc/passed
+  465  head /etc/passwd
+  466  head -4 /etc/passwd
+  467  tail /etc/passwd
+  468  tail -1 /etc/passwd
+  469  lc
+  470  head -12 /etc/service
+  471  head -12 /etc/services
+  472  tail -1 /etc/passwd
+  473  cat count.txt
+  474  cat >count.txt
+  475  cat count.txt
+  476  cat> family.txt
+  477  cat family.txt
+  478  ls
+  479  cp -r family.txt familybackup.txt
+  480  ls
+  481  tree
+  482  cat familybackup.txt
+  483  lc
+  484  cat count.txt > countbackup.txt
+  485  ls
+  486  cat countbackup.txt
+  487  tac countbackup.txt
+  488  ls
+  489  batcat
+  490  ls
+  491  ls -lrs
+  492  ls -lrS
+  493  ls -lS
+  494  ls -lrs /etc
+  495  ls -lrS /etc
+  496  ls
+  497  cat familybackup.txt >> love.txt
+  498  ls
+  499  cat familybackup.txt
+  500  ls 
+  501  cat love.txt
+  502  ls
+  503  echo "hello baby how are you"
+  504  echo hello baby how                   are you
+  505  echo -e "hello"/n
+  506  echo -e "hello\n how are you"
+  507  echo -e "hello \nhow are you"
+  508  echo -e "Hii \nHello\nhow are you\nI am fine"
+  509  type cat
+  510  type ls
+  511  type lc
+  512  lc
+  513  which rm
+  514  type rm
+  515  alias city='tauru'
+  516  cat city
+  517  echo city
+  518  echo $city
+  519  echo $CITY
+  520  unalias city
+  521  alias city='echo Tauru'
+  522  city
+  523  echo '??\\'
+  524  echo -e '??\\\\"
+  525  echo -e '??\\\\'
+  526  echo -e "One \nTwo \nThree"
+  527  cd
+  528  ls
+  529  git add Devops
+  530  mkdir practice
+  531  ls
+  532  cp -r Devops /practice
+  533  ls
+  534  cp -r Devops /practice
+  535  cd practice
+  536  ls
+  537  cp -r Devops /practice
+  538  cp -r /home/ravi/Devops /practice
+  539  cd 
+  540  ls -lh
+  541  cp -r Devops practicr
+  542  ls
+  543  rm -rf practicr
+  544  cp -r Devops practice
+  545  ls
+  546  cd practice
+  547  tree
+  548  cd day5
+  549  ls
+  550  git init
+  551  ls
+  552  git add .
+  553  git rm --cached Devops/day5/first
+  554  git rm --cached -f  Devops/day5/first
+  555  ls
+  556  tree
+  557  git add .
+  558  git commit -m "linux"
+  559  git push -u origin main
+  560  git checkout main
+  561  git push -u origin master
+  562  ls
+  563  git show
+  564  git status
+  565  git log
+  566  lss
+  567  ls
+  568  git add Devops
+  569  git commit -m "linux"
+  570  git log
+  571  cd
+  572  ls
+  573  mkdir love
+  574  cd lobe
+  575  cd love
+  576  mkdir test
+  577  cd test
+  578  cat test
+  579  cat >test
+  580  cat test
+  581  cd ...
+  582  cd love
+  583  ls
+  584  git init
+  585  ls -a
+  586  cd
+  587  cd practice
+  588  ls
+  589  git branch -M main
+  590  ls
+  591  git add .
+  592  git commit -m "linux"
+  593  git push -u origin main
+  594  git status
+  595  git log
+  596  git remote add origin https://github.com/ravisrma/Devops.git
+  597  git branch -M main\ngit push -u origin main
+  598  tree
+  599  ls
+  600  las
+  601  ls
+  602  cd Devops
+  603  ls
+  604  cat history
+  605  echo $history
+  606  ls
+  607  cd day2
+  608  ls
+  609  lc
+  610  cd ..
+  611  ls
+  612  cd day1
+  613  ls
+  614  history
+  615  echo hello ; echo ravi
+  616  zcho hello
+  617  $?
+  618  echo $?
+  619  touch echo
+  620  ls
+  621  echo $?
+  622  echoo hello
+  623  echo $?
+  624  echo ravi && echo sharma
+  625  echo0 ravi && echo sharma
+  626  echo ravi && echo0 sharma
+  627  echo ravi || echo sharma
+  628  echo0 ravi || echo sharma
+  629  ls
+  630  rm echo && echo "It's worked" || echo "It's failed"
+  631  ls
+  632  touch echo
+  633  ls
+  634  rmm echo && echo "it's worked" || echo "it's failed"
+  635  echo ravi #this print the ravi
+  636  echo ravi \; echo muskan
+  637  echo ravi \; muskan
+  638  sudo apt update -y
+  639  ls
+  640  echo Hii \\nHow are you\\nI am fine\\nabout you\\nI am also good\\nwhts going on \\nnothing\\njust learning linux\\noky good
+  641  ls
+  642  echo this is my $SHELL name
+  643  echo Hello $USER
+  644  echo I am From city
+  645  echo I am From $CITY
+  646  city
+  647  echo I am From ; city
+  648  echo I am From; city
+  649  echo $PATH
+  650  echo hello $city
+  651  preficx=Super
+  652  echo Hello I am $preficxman
+  653  echo Hello I am $preficx
+  654  echo Hello I am $preficxman
+  655  echo Hello I am ${preficx}man
+  656  ls
+  657  mkdir testdir ; cd testfir
+  658  mkdir testdir ; cd testdir
+  659  ls
+  660  pwd
+  661  touch file1 file10 file11 file2 File2 File3 file33 fileAB filea fileA fileAAA file( file 2\n
+  662  ls
+  663  touch file1 file10 file11 file2 File2 File3 file33 fileAB filea fileA fileAAA file( "file 2"\n
+  664  touch file1 file10 file11 file2 File2 File3 file33 fileAB filea fileA fileAAA\n
+  665  ls
+  666  touch "file ("
+  667  touch "file 2"
+  668  ls file*
+  669  ls
+  670  ls File*
+  671  ls file[0-9]*
+  672  ls file[a-z]*
+  673  ls -i file[a-z]*
+  674  ls file*[a-z}
+  675  ls file*[a-z]
+  676  ls [a-z]*[0-9]
+  677  ls ?????
+  678  ls
+  679  cd ..
+  680  ;s
+  681  ls
+  682  cd ..
+  683  ls
+  684  cd ..
+  685  ;s
+  686  ls
+  687  cd practice
+  688  ls
+  689  git add .
+  690  git commit -m "linux2"
+  691  git push -u origin main
+  692  git pull origin main
+  693  ls
+  694  cd Devops/day1
+  695  ls
+  696  cd testdir
+  697  ls
+  698  cd
+  699  cd practice
+  700  ls
+  701  git add .
+  702  git commit -m "linux2"
+  703  git push -u origin main
+  704  git remote add origin https://github.com/ravisrma/90_Days.git
+  705  git push -u origin main
+  706  sudo apt update -y
+  707  ls
+  708  cd practice
+  709  ls
+  710  git remote add origin https://github.com/ravisrma/90DaysOfDevOps.git
+  711  git branch -M main\ngit push -u origin main
+  712  cd
+  713  ls
+  714  cp -r practice practice_1
+  715  cd practice_`
+  716  cd practice_1
+  717  ls
+  718  cd
+  719  cd Devops
+  720  ls
+  721  tree
+  722  cd
+  723  ls
+  724  rm -rf practice
+  725  rm -rf practice_1
+  726  mkdir Practice 
+  727  cp -r Devops Practice
+  728  ls
+  729  cd Practice
+  730  ls
+  731  git init
+  732  git add .
+  733  git rm --cached Devops/day5/first
+  734  git rm --cached -f Devops/day5/first
+  735  ls
+  736  git commit -m "linux01"
+  737  git remote add origin https://github.com/ravisrma/90DaysOfDevOps.git
+  738  git branch -M main
+  739  git push -u origin main
+  740  git pull origin main
+  741  ls
+  742  cd Devops
+  743  ls
+  744  cd day2
+  745  ls
+  746  echo "hello I am Ravi" > Intro.txt
+  747  cat Intro.txt
+  748  echo "hello this is Ravi" > Intro.txt
+  749  cat Intro.txt
+  750  set -o noclobber
+  751  echo "hello this is Ravi" > Intro.txt
+  752  set -o noclobber
+  753  cat Intro.txt
+  754  echo "hello I am Ravi" > Intro.txt
+  755  echo "hello I am Ravi" >| Intro.txt
+  756  cat Intro.txt
+  757  echo "I am Working as DevOps Engineer in Accenture">> Intro.txt
+  758  cat Intro.txt
+  759  touch error.txt
+  760  ls
+  761  zecho "Hi" 2> error.txt
+  762  cat error.txt
+  763  touch error_output.txt
+  764  ls
+  765  echho "hi I am ravi " error_output.txt 2>&1 
+  766  cat error_output.txt
+  767  echo "hi I am ravi " error_output.txt 2>&1 
+  768  echo "hi I am ravi "> error_output.txt 2>&1 
+  769  echo "hi I am ravi " > error_output.txt 2>&1 
+  770  cat error_output.txt
+  771  echo "hi I am ravi" > error_output.txt 2>&1 
+  772  ls
+  773  echo "hi I am ravi" >error_output.txt 2>&1
+  774  cat error_output.txt
+  775  echo "hi I am ravi" >>error_output.txt 2>&1
+  776  cat error_output.txt
+  777  zecho "hi I am ravi" >>error_output.txt 2>&1
+  778  ls > error_output.txt 2>&1
+  779  cat error_output.txt
+  780  ls > sample.txt
+  781  cat sample.txt
+  782  rm -rf sample.txt
+  783  ls > sample.txt2 2>&1
+  784  cat sample.txt
+  785  ls
+  786  cat sample.txt2
+  787  cat sample.txt2 > foo
+  788  cat sample.txt2 
+  789  cd ..
+  790  ls
+  791  git add .
+  792  git commit -m "linux02"
+  793  git push -u origin main
+  794  sudo apt update -y
+  795  sudo apt upgrade -y
+  796  ls
+  797  cd Practice
+  798  ls
+  799  tree
+  800  cd day2
+  801  ls
+  802  cd Devops
+  803  cd day2
+  804  git push -u origin main
+  805  git pull origin main
+  806  ls
+  807  cat >count.txt
+  808  cat count.txt
+  809  tac count.txt
+  810  code fruits.txt
+  811  ls
+  812  grep fruit fruits.txt
+  813  grep kiwi fruits.txt
+  814  cd
+  815  git clone https://github.com/vinceliuice/WhiteSur-kde.git
+  816  ls
+  817  cd WhiteSur-kde
+  818  ls
+  819  ./install.sh --sharp
+  820  ls
+  821  cd Practice
+  822  ls
+  823  cd Devops
+  824  ls
+  825  cd day2
+  826  git pull origin main
+  827  cat fruits.txt
+  828  grep -i kiwi fruits.txt
+  829  grep -i KIWI fruits.txt
+  830  grep -v kiwi fruits.txt
+  831  grep -vi KIWI fruits.txt
+  832  cat fruits.txt
+  833  grep -A1 kiwi fruits.txt
+  834  grep -B1 kiwi fruits.txt
+  835  grep -c1 kiwi fruits.txt
+  836  grep -C1 kiwi fruits.txt
+  837  code family.txt
+  838  cat family.txt
+  839  cut -d : family.txt
+  840  cut -d : -f 1 family.txt
+  841  cut -d : -f 2  family.txt
+  842  cut -b 1,2 family.txt
+  843  cut -c 1,2 family.txt
+  844  cut -c 1-5 family.txt
+  845  cut -d : -c 1-8  family.txt
+  846  cut -d : -c 1-5  family.txt
+  847  cut -c 1-8  family.txt
+  848  cat family.txt | tr 'a' 'A'
+  849  cat family.txt 
+  850  code tennis.txt
+  851  cat tennis.txt
+  852  cat tennis.txt | tr 'a-z' 'A-Z'
+  853  code space.txt
+  854  cat space.txt
+  855  cat space.txt | tr -s ""
+  856  cat space.txt | tr -s " "
+  857  cat tennis.txt | wc -l
+  858  cat tennis.txt
+  859  wc -l tennis.txt
+  860  wc -L tennis.txt
+  861  ls
+  862  wc -l family.txt
+  863  cat family.txt
+  864  vi family.txt
+  865  wc -l family.txt
+  866  wc -w tennis.txt
+  867  vi tennis.txt
+  868  wc -l tennis.txt
+  869  wc -w tennis.txt
+  870  wc -c tennis.txt
+  871  vi music.txt
+  872  wc music.txt
+  873  cat music.txt
+  874  sort music.txt
+  875  vi country.txt
+  876  sort -k1 count
+  877  sort -k1 country.txt
+  878  sort -k2 country.txt
+  879  sort -n -k3 country.txt
+  880  ls
+  881  cd Practice/Devops/day2
+  882  ls
+  883  cat music.txt
+  884  ls
+  885  vi music.txt
+  886  sort music.txt | uniq
+  887  ls
+  888  sort music.txt | uniq -c
+  889  sudo apt update -y
+  890  sudo apt upgrade -y
+  891  ls
+  892  cat music.txt
+  893  cat music.txt | sed 's/Le/Rm'
+  894  cat music.txt | sed `s/Le/Rm`
+  895  cat music.txt | sed `s/Le/Rm/`
+  896  cat music.txt | sed 's/Le/Rm/'
+  897  cat music.txt
+  898  who |wc
+  899  who
+  900  find /etc
+  901  find /
+  902  find / -name *.conf
+  903  find / -name "*.conf"
+  904  find / -type d -name "*.bak"
+  905  find . -newer country.txt
+  906  ls
+  907  cd
+  908  ls
+  909  cd Practice
+  910  ls
+  911  tar cvzf Devops
+  912  cp -r Devops Devopsbackup
+  913  ls
+  914  tar cvzf Devopsbackup.tar.gz
+  915  tar cvzf Devopsbackup
+  916  tar cvzf Devopsbackup.tar.gz Devopsbackup
+  917  ls
+  918  tar xvzf Devopsbackup.tar.gz
+  919  ls
+  920  rm -rf Devopsbackup
+  921  tar xvzf Devopsbackup.tar.gz
+  922  la
+  923  ls
+  924  rm -rf Devopsbackup
+  925  rm -rf Devopsbackup.tar.gz
+  926  ls
+  927  cd Devops
+  928  ls
+  929  cd day2
+  930  ls
+  931  gzip sample.txt2 
+  932  ls
+  933  guzip sample.txt2.gz
+  934  gunzip sample.txt2.gz
+  935  ls
+  936  gzip sample.txt2 
+  937  ls
+  938  zcat sample.txt2.gz
+  939  tree
+  940  zmore sample.txt2.gz
+  941  bzip2 s
+  942  bzip2 sample.txt2.gz
+  943  ls
+  944  bzcat sample.txt2.gz.bz2
+  945  bzmore sample.txt2.gz.bz2
+  946  ls
+  947  cat music.txt
+  948  grep -E 'i|d' music.txt
+  949  cat >list
+  950  cat list
+  951  grep -E 'o*' music.txt
+  952  grep -E 'o*' list
+  953  grep -E 'o+' list
+  954  cat music.txt
+  955  ls
+  956  grep n$ music.txt
+  957  grep $n music.txt
+  958  grep L^  music.txt
+  959  grep ^L  music.txt
+  960  sudo su -
+  961  sudo su
+  962  sudo apt update -y
+  963  sudo apt upgrade -y
+  964  ls
+  965  cd Devops
+  966  cd 
+  967  cd Practice
+  968  ls
+  969  cd Devops
+  970  ls
+  971  cd day
+  972  cd day2
+  973  ls
+  974  tree
+  975  rm -rf foo
+  976  ls
+  977  tree
+  978  ls -lh
+  979  lc
+  980  lc -lh
+  981  lc -lrS
+  982  lc
+  983  ls
+  984  cd Practice
+  985  ls
+  986  cd Devops
+  987  cd Devops/day2
+  988  ls
+  989  cd day2
+  990  ls
+  991  sudo apt update -y
+  992  ls
+  993  cat /etc/passwd
+  994  head -5 /etc/passwd
+  995  tail -5 /etc/passwd
+  996  sudo apt update -y
+  997  cd Practice/Devops/day2
+  998  ls
+  999  history -a
+ 1000  ls
+ 1001  history -w ~/history.txt
+ 1002  ls
+ 1003  history -w history.txt
+ 1004  touch history.txt
+ 1005  history -w history.txt
+    1  ls -la
+    2  ls
+    3  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    4  ls
+    5  ls -la
+    6  cd .oh-my-zsh
+    7  ls
+    8  cd custom
+    9  ls
+   10  cd plugins
+   11  ls
+   12  cd
+   13  code ~/.zshrc
+   14  ls
+   15  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   16  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   17  code ~/.zshrc
+   18  sudo apt-get install gnome-tweak-tool
+   19  sudo apt update\n
+   20  sudo apt install gnome-tweaks
+   21  apt search extension-manager
+   22  apt install gnome-shell-extension-manager
+   23  sudo apt install gnome-shell-extension-manager
+   24  cd Downloads
+   25  ls
+   26  git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+   27  ls
+   28  cd WhiteSur-gtk-theme
+   29  ls
+   30  cd
+   31  sudo nautilus
+   32  cd WhiteSur-gtk-theme
+   33  ls
+   34  cd D
+   35  cd Downloads
+   36  ls
+   37  cd WhiteSur-gtk-theme
+   38  ls
+   39  ./install.sh -t all -N glassy
+   40  ./tweaks.sh -f Alt
+   41  ls
+   42  ./tweaks.sh -f Alt
+   43  ./tweaks.sh -f alt
+   44  ./tweaks.sh -f monterey
+   45  cd ..
+   46  ls
+   47  git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
+   48  ls
+   49  git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
+   50  ls
+   51  cd WhiteSur-icon-theme
+   52  ls
+   53  ./install.sh -a -b
+   54  ./install.sh -a
+   55  ./install.sh -a -b
+   56  sudo nautilus
+   57  ls
+   58  pwd
+   59  gem
+   60  sudo apt install bat
+   61  ls
+   62  bat   install.sh
+   63  mkdir -p ~/.local/bin\nln -s /usr/bin/batcat ~/.local/bin/bat
+   64  batcat install.sh
+   65  code ~/.zshrc
+   66  cat install.sh
+   67  ls
+   68  cat install.sh
+   69  cargo install lscolors
+   70  sudo apt install cargo
+   71  cargo install lscolors
+   72  lscolors **/*
+   73  ls
+   74  cd Downloads
+   75  ls
+   76  dpkg -i lscolors_0.17.0_amd64.deb
+   77  sudo dpkg -i lscolors_0.17.0_amd64.deb
+   78  lscolors
+   79  lscolors **/*
+   80  ld
+   81  wget "https://github.com/sharkdp/vivid/releases/download/v0.8.0/vivid_0.8.0_amd64.deb"\nsudo dpkg -i vivid_0.8.0_amd64.deb
+   82  code ~/.zshrc
+   83  tree -a
+   84  sudo apt install tree
+   85  tree -a
+   86  cd
+   87  ls
+   88  cd .config
+   89  ls
+   90  ls -a
+   91  ls
+   92  cd
+   93  cd /usr/share/vivid
+   94  cd /usr
+   95  ls
+   96  cd share
+   97  ls
+   98  cd
+   99  ls
+  100  ls -a
+  101  cd .config
+  102  ls
+  103  ls -a
+  104  ls
+  105  tree
+  106  find . -name vivid
+  107  cargo install vivid
+  108  ls
+  109  find / -type d -name vivid
+  110  find . -type d -name vivid
+  111  sudo su
+  112  ls -a
+  113  ls -al
+  114  cd .config
+  115  ls -alh
+  116  cd
+  117  cd Downloads
+  118  ls
+  119  dpkg -i vivid_0.8.0_amd64.deb
+  120  sudo dpkg -i vivid_0.8.0_amd64.deb
+  121  tree
+  122  ls
+  123  sudo dpkg -i logo-ls_amd64.deb
+  124  logo-ls
+  125  code ~/.zshrc
+  126  ls
+  127  ls -a
+  128  ls -alh
+  129  git clone https://github.com/supercrabtree/k $ZSH_CUSTOM/plugins/k
+  130  k
+  131  ls
+  132  vivid generate path/to/my_theme.yml
+  133  find . -type f -name my_theme.yml
+  134  sudo find / -type f -name my_theme.yml
+  135  sudo find . -type f -name *.yml
+  136  sudo su 
+  137  ls
+  138  pwd
+  139  ls
+  140  mkdir Devops
+  141  ls
+  142  ls -alh
+  143  tree .config
+  144  code ~/.p10k.zsh
+  145  p10k configure
+  146  ls
+  147  pwd
+  148  ls
+  149  git clone https://github.com/Godiesc/firefox-one.git
+  150  ls
+  151  cd Downloads
+  152  ls
+  153  cd WhiteSur-gtk-theme
+  154  ls
+  155  ./tweaks.sh -f monterey 
+  156  ls
+  157  rm -rf firefox-one
+  158  ls
+  159  history
+  160  code ~/.p10k.zsh
+  161  cd /etc
+  162  cd
+  163  sudo gem install colorls
+  164  sudo apt install ruby ruby-dev ruby-colorize
+  165  sudo gem install colorls
+  166  cd /var
+  167  cd lib
+  168  ls
+  169  cd gems
+  170  ls
+  171  cd 3.1.0
+  172  ls
+  173  cd extensions
+  174  ls
+  175  cd x86_64-linux
+  176  ls
+  177  cd 3.1.0
+  178  ls
+  179  cd clocale-0.0.4
+  180  ls
+  181  cat mkmf.log
+  182  pwd
+  183  cd
+  184  sudo apt install gcc make
+  185  sudo gem install colorls
+  186  colorls
+  187  code ~/.zshrc
+  188  ls
+  189  cd Devops
+  190  ls
+  191  code codeing.sh
+  192  chmod +x codeing.sh
+  193  ./codeing.sh day 1 90
+  194  ls
+  195  colorls
+  196  cd
+  197  code ~/.p10k.zsh
+  198  ls
+  199  cd Devops
+  200  ls
+  201  cd
+  202  ls -a
+  203  cd .oh-my-zsh
+  204  ls
+  205  cd themes
+  206  ls
+  207  cd
+  208  code ~/.zshrc
+  209  l
+  210  ls
+  211  code ~/.p10k.zsh
+  212  ls
+  213  cd D
+  214  cd Downloads
+  215  ls
+  216  cd WhiteSur-gtk-theme
+  217  ls
+  218  ld
+  219  ls
+  220  cd WhiteSur-gtk-theme
+  221  ls 
+  222  cd Do
+  223  cd Downloads
+  224  ls
+  225  cd WhiteSur-gtk-theme
+  226  ls
+  227  cd
+  228  cd Downloads
+  229  ls
+  230  cd
+  231  ls
+  232  cd Downloads
+  233  ls
+  234  cd WhiteSur-gtk-theme
+  235  ls
+  236  cd
+  237  ls
+  238  ls -a
+  239  cd .oh-my-zsh
+  240  ls
+  241  cd themes
+  242  ls
+  243  code dracula.zsh-theme
+  244  ls
+  245  cd Downloads
+  246  ls
+  247  cd Downloads
+  248  ls
+  249  pwd
+  250  cd Downloads
+  251  cd WhiteSur-gtk-theme
+  252  ls
+  253  cd
+  254  ls
+  255  colorls
+  256  cd
+  257  ls
+  258  cd Devops
+  259  ls
+  260  cd day5
+  261  ls
+  262  git --version
+  263  sudo apt update -y
+  264  ls
+  265  ls -a
+  266  git config --global user.name "ravi"
+  267  git config --global user.email ravisharma0527@gmai.com
+  268  git config list
+  269  git config --list
+  270  git config --global user.email ravisharma0527@gmail.com
+  271  git config --list
+  272  ls
+  273  mkdir first
+  274  ls
+  275  colorls
+  276  code ~/.zshrc
+  277  lc
+  278  lc -a
+  279  ls 
+  280  cd Devops
+  281  ls
+  282  cd day5
+  283  ls
+  284  lc
+  285  git init
+  286  ls
+  287  ls -a
+  288  cd
+  289  cd day5
+  290  cd
+  291  ls
+  292  cd Devops
+  293  ls
+  294  cd day5
+  295  ls
+  296  cd first
+  297  ls
+  298  cd
+  299  cd Devops
+  300  ls
+  301  rm -rf day5
+  302  mkdir day5
+  303  ls
+  304  cd day5
+  305  ls
+  306  mkdir first
+  307  cd first
+  308  ls
+  309  git init
+  310  ls
+  311  touch file1
+  312  code file1
+  313  cat file1
+  314  git status
+  315  git add .
+  316  git status
+  317  git commit -m "01"
+  318  git status
+  319  git log
+  320  git show  c0e43f4
+  321  git remote add origin https://github.com/ravisrma/Day5.git\ngit branch -M main\ngit push -u origin main
+  322  git remote add origin https://github.com/ravisrma/Day5.git
+  323  git branch -M main
+  324  git push -u origin main
+  325  ls
+  326  sudo apt update -y
+  327  sudo apt upgrade -y
+  328  ls
+  329  lc
+  330  cd Devops
+  331  ls
+  332  cd day5
+  333  ls
+  334  cd first
+  335  ls
+  336  sudo apt update -y
+  337  sudo apt upgrade -y
+  338  ls
+  339  cd Devops
+  340  ls
+  341  rm -rf codeing.sh
+  342  ls
+  343  wc -l
+  344  wc -w
+  345  cd ..
+  346  wc -l Devops
+  347  cd De
+  348  cd Devops
+  349  wc -l
+  350  ls | wc -l
+  351  ls |wc -w
+  352  ls -a | wc -l
+  353  ls 
+  354  ls -ls
+  355  ls -l
+  356  ls -l |wc -l
+  357  ls
+  358  cd Devops
+  359  sudo apt update -y
+  360  ls
+  361  cd day1
+  362  ls
+  363  pwd
+  364  cd /etc
+  365  cd ..
+  366  ls
+  367  cd
+  368  ls
+  369  cd Devops/day1
+  370  ls
+  371  cd
+  372  cd /boot/grub
+  373  ls
+  374  cd ..
+  375  cd /
+  376  ls
+  377  ls -l
+  378  lc -l
+  379  ls /etc
+  380  lc /etc
+  381  ls /bin /sbin
+  382  ls ~
+  383  ls -al ~
+  384  ls -lh /boot
+  385  ls /bin
+  386  lc /bin
+  387  file /bin/cat /etc/passwd /usr/bin/passwd
+  388  ls
+  389  cd
+  390  cd /Devops
+  391  cd
+  392  ls
+  393  cd Devops
+  394  ls
+  395  cd day1
+  396  touch wolf.txt linux.txt
+  397  mv wolf.txt wolf.json
+  398  ls
+  399  mkdir touched
+  400  cd touched
+  401  touch today.txt yesterday.txt
+  402  ls
+  403  lc
+  404  touch -t 202403091100 yesterday.txt
+  405  lc
+  406  ls -l
+  407  touch -t 202403081100 yesterday.txt
+  408  ls -l
+  409  ls
+  410  cp yesterday.txt copy.yesterday.txt
+  411  ls
+  412  sudo apt update -y
+  413  cd Devops
+  414  ls
+  415  cd day`
+  416  cd ay1
+  417  cd day1
+  418  ls
+  419  cd touched
+  420  ls
+  421  mv copy.yesterday.txt kim
+  422  ls
+  423  cd ..
+  424  ls
+  425  mkdir testbackup; cp -r touched testbackup
+  426  ls
+  427  cd testbackup
+  428  ls
+  429  cd touched
+  430  ls
+  431  cd ..
+  432  ;d
+  433  cd ..
+  434  ls 
+  435  rm -rf testbackup
+  436  ls
+  437  lc
+  438  mkdir etcbackup; cp -r /etc/*.conf etcbackup
+  439  ls
+  440  tree etcbackup
+  441  cd etcbackup
+  442  ;s
+  443  ls
+  444  lc
+  445  rename
+  446  cd
+  447  ls
+  448  cd Devops
+  449  ls
+  450  cd day1
+  451  ls
+  452  cd touched
+  453  ls
+  454  touch 1.conf 2.conf ; rename 's/conf/backup' *.conf
+  455  sudo apt install rename
+  456  touch 1.conf 2.conf ; rename 's/conf/backup' *.conf
+  457  ls
+  458  touch 1.conf 2.conf ; rename 's/conf/backup' *.conf
+  459  ls
+  460  touch 1.conf 2.conf ; rename 's/conf/backup/' *.conf
+  461  ls
+  462  history
+  463  head /etc
+  464  head /etc/passed
+  465  head /etc/passwd
+  466  head -4 /etc/passwd
+  467  tail /etc/passwd
+  468  tail -1 /etc/passwd
+  469  lc
+  470  head -12 /etc/service
+  471  head -12 /etc/services
+  472  tail -1 /etc/passwd
+  473  cat count.txt
+  474  cat >count.txt
+  475  cat count.txt
+  476  cat> family.txt
+  477  cat family.txt
+  478  ls
+  479  cp -r family.txt familybackup.txt
+  480  ls
+  481  tree
+  482  cat familybackup.txt
+  483  lc
+  484  cat count.txt > countbackup.txt
+  485  ls
+  486  cat countbackup.txt
+  487  tac countbackup.txt
+  488  ls
+  489  batcat
+  490  ls
+  491  ls -lrs
+  492  ls -lrS
+  493  ls -lS
+  494  ls -lrs /etc
+  495  ls -lrS /etc
+  496  ls
+  497  cat familybackup.txt >> love.txt
+  498  ls
+  499  cat familybackup.txt
+  500  ls 
+  501  cat love.txt
+  502  ls
+  503  echo "hello baby how are you"
+  504  echo hello baby how                   are you
+  505  echo -e "hello"/n
+  506  echo -e "hello\n how are you"
+  507  echo -e "hello \nhow are you"
+  508  echo -e "Hii \nHello\nhow are you\nI am fine"
+  509  type cat
+  510  type ls
+  511  type lc
+  512  lc
+  513  which rm
+  514  type rm
+  515  alias city='tauru'
+  516  cat city
+  517  echo city
+  518  echo $city
+  519  echo $CITY
+  520  unalias city
+  521  alias city='echo Tauru'
+  522  city
+  523  echo '??\\'
+  524  echo -e '??\\\\"
+  525  echo -e '??\\\\'
+  526  echo -e "One \nTwo \nThree"
+  527  cd
+  528  ls
+  529  git add Devops
+  530  mkdir practice
+  531  ls
+  532  cp -r Devops /practice
+  533  ls
+  534  cp -r Devops /practice
+  535  cd practice
+  536  ls
+  537  cp -r Devops /practice
+  538  cp -r /home/ravi/Devops /practice
+  539  cd 
+  540  ls -lh
+  541  cp -r Devops practicr
+  542  ls
+  543  rm -rf practicr
+  544  cp -r Devops practice
+  545  ls
+  546  cd practice
+  547  tree
+  548  cd day5
+  549  ls
+  550  git init
+  551  ls
+  552  git add .
+  553  git rm --cached Devops/day5/first
+  554  git rm --cached -f  Devops/day5/first
+  555  ls
+  556  tree
+  557  git add .
+  558  git commit -m "linux"
+  559  git push -u origin main
+  560  git checkout main
+  561  git push -u origin master
+  562  ls
+  563  git show
+  564  git status
+  565  git log
+  566  lss
+  567  ls
+  568  git add Devops
+  569  git commit -m "linux"
+  570  git log
+  571  cd
+  572  ls
+  573  mkdir love
+  574  cd lobe
+  575  cd love
+  576  mkdir test
+  577  cd test
+  578  cat test
+  579  cat >test
+  580  cat test
+  581  cd ...
+  582  cd love
+  583  ls
+  584  git init
+  585  ls -a
+  586  cd
+  587  cd practice
+  588  ls
+  589  git branch -M main
+  590  ls
+  591  git add .
+  592  git commit -m "linux"
+  593  git push -u origin main
+  594  git status
+  595  git log
+  596  git remote add origin https://github.com/ravisrma/Devops.git
+  597  git branch -M main\ngit push -u origin main
+  598  tree
+  599  ls
+  600  las
+  601  ls
+  602  cd Devops
+  603  ls
+  604  cat history
+  605  echo $history
+  606  ls
+  607  cd day2
+  608  ls
+  609  lc
+  610  cd ..
+  611  ls
+  612  cd day1
+  613  ls
+  614  history
+  615  echo hello ; echo ravi
+  616  zcho hello
+  617  $?
+  618  echo $?
+  619  touch echo
+  620  ls
+  621  echo $?
+  622  echoo hello
+  623  echo $?
+  624  echo ravi && echo sharma
+  625  echo0 ravi && echo sharma
+  626  echo ravi && echo0 sharma
+  627  echo ravi || echo sharma
+  628  echo0 ravi || echo sharma
+  629  ls
+  630  rm echo && echo "It's worked" || echo "It's failed"
+  631  ls
+  632  touch echo
+  633  ls
+  634  rmm echo && echo "it's worked" || echo "it's failed"
+  635  echo ravi #this print the ravi
+  636  echo ravi \; echo muskan
+  637  echo ravi \; muskan
+  638  sudo apt update -y
+  639  ls
+  640  echo Hii \\nHow are you\\nI am fine\\nabout you\\nI am also good\\nwhts going on \\nnothing\\njust learning linux\\noky good
+  641  ls
+  642  echo this is my $SHELL name
+  643  echo Hello $USER
+  644  echo I am From city
+  645  echo I am From $CITY
+  646  city
+  647  echo I am From ; city
+  648  echo I am From; city
+  649  echo $PATH
+  650  echo hello $city
+  651  preficx=Super
+  652  echo Hello I am $preficxman
+  653  echo Hello I am $preficx
+  654  echo Hello I am $preficxman
+  655  echo Hello I am ${preficx}man
+  656  ls
+  657  mkdir testdir ; cd testfir
+  658  mkdir testdir ; cd testdir
+  659  ls
+  660  pwd
+  661  touch file1 file10 file11 file2 File2 File3 file33 fileAB filea fileA fileAAA file( file 2\n
+  662  ls
+  663  touch file1 file10 file11 file2 File2 File3 file33 fileAB filea fileA fileAAA file( "file 2"\n
+  664  touch file1 file10 file11 file2 File2 File3 file33 fileAB filea fileA fileAAA\n
+  665  ls
+  666  touch "file ("
+  667  touch "file 2"
+  668  ls file*
+  669  ls
+  670  ls File*
+  671  ls file[0-9]*
+  672  ls file[a-z]*
+  673  ls -i file[a-z]*
+  674  ls file*[a-z}
+  675  ls file*[a-z]
+  676  ls [a-z]*[0-9]
+  677  ls ?????
+  678  ls
+  679  cd ..
+  680  ;s
+  681  ls
+  682  cd ..
+  683  ls
+  684  cd ..
+  685  ;s
+  686  ls
+  687  cd practice
+  688  ls
+  689  git add .
+  690  git commit -m "linux2"
+  691  git push -u origin main
+  692  git pull origin main
+  693  ls
+  694  cd Devops/day1
+  695  ls
+  696  cd testdir
+  697  ls
+  698  cd
+  699  cd practice
+  700  ls
+  701  git add .
+  702  git commit -m "linux2"
+  703  git push -u origin main
+  704  git remote add origin https://github.com/ravisrma/90_Days.git
+  705  git push -u origin main
+  706  sudo apt update -y
+  707  ls
+  708  cd practice
+  709  ls
+  710  git remote add origin https://github.com/ravisrma/90DaysOfDevOps.git
+  711  git branch -M main\ngit push -u origin main
+  712  cd
+  713  ls
+  714  cp -r practice practice_1
+  715  cd practice_`
+  716  cd practice_1
+  717  ls
+  718  cd
+  719  cd Devops
+  720  ls
+  721  tree
+  722  cd
+  723  ls
+  724  rm -rf practice
+  725  rm -rf practice_1
+  726  mkdir Practice 
+  727  cp -r Devops Practice
+  728  ls
+  729  cd Practice
+  730  ls
+  731  git init
+  732  git add .
+  733  git rm --cached Devops/day5/first
+  734  git rm --cached -f Devops/day5/first
+  735  ls
+  736  git commit -m "linux01"
+  737  git remote add origin https://github.com/ravisrma/90DaysOfDevOps.git
+  738  git branch -M main
+  739  git push -u origin main
+  740  git pull origin main
+  741  ls
+  742  cd Devops
+  743  ls
+  744  cd day2
+  745  ls
+  746  echo "hello I am Ravi" > Intro.txt
+  747  cat Intro.txt
+  748  echo "hello this is Ravi" > Intro.txt
+  749  cat Intro.txt
+  750  set -o noclobber
+  751  echo "hello this is Ravi" > Intro.txt
+  752  set -o noclobber
+  753  cat Intro.txt
+  754  echo "hello I am Ravi" > Intro.txt
+  755  echo "hello I am Ravi" >| Intro.txt
+  756  cat Intro.txt
+  757  echo "I am Working as DevOps Engineer in Accenture">> Intro.txt
+  758  cat Intro.txt
+  759  touch error.txt
+  760  ls
+  761  zecho "Hi" 2> error.txt
+  762  cat error.txt
+  763  touch error_output.txt
+  764  ls
+  765  echho "hi I am ravi " error_output.txt 2>&1 
+  766  cat error_output.txt
+  767  echo "hi I am ravi " error_output.txt 2>&1 
+  768  echo "hi I am ravi "> error_output.txt 2>&1 
+  769  echo "hi I am ravi " > error_output.txt 2>&1 
+  770  cat error_output.txt
+  771  echo "hi I am ravi" > error_output.txt 2>&1 
+  772  ls
+  773  echo "hi I am ravi" >error_output.txt 2>&1
+  774  cat error_output.txt
+  775  echo "hi I am ravi" >>error_output.txt 2>&1
+  776  cat error_output.txt
+  777  zecho "hi I am ravi" >>error_output.txt 2>&1
+  778  ls > error_output.txt 2>&1
+  779  cat error_output.txt
+  780  ls > sample.txt
+  781  cat sample.txt
+  782  rm -rf sample.txt
+  783  ls > sample.txt2 2>&1
+  784  cat sample.txt
+  785  ls
+  786  cat sample.txt2
+  787  cat sample.txt2 > foo
+  788  cat sample.txt2 
+  789  cd ..
+  790  ls
+  791  git add .
+  792  git commit -m "linux02"
+  793  git push -u origin main
+  794  sudo apt update -y
+  795  sudo apt upgrade -y
+  796  ls
+  797  cd Practice
+  798  ls
+  799  tree
+  800  cd day2
+  801  ls
+  802  cd Devops
+  803  cd day2
+  804  git push -u origin main
+  805  git pull origin main
+  806  ls
+  807  cat >count.txt
+  808  cat count.txt
+  809  tac count.txt
+  810  code fruits.txt
+  811  ls
+  812  grep fruit fruits.txt
+  813  grep kiwi fruits.txt
+  814  cd
+  815  git clone https://github.com/vinceliuice/WhiteSur-kde.git
+  816  ls
+  817  cd WhiteSur-kde
+  818  ls
+  819  ./install.sh --sharp
+  820  ls
+  821  cd Practice
+  822  ls
+  823  cd Devops
+  824  ls
+  825  cd day2
+  826  git pull origin main
+  827  cat fruits.txt
+  828  grep -i kiwi fruits.txt
+  829  grep -i KIWI fruits.txt
+  830  grep -v kiwi fruits.txt
+  831  grep -vi KIWI fruits.txt
+  832  cat fruits.txt
+  833  grep -A1 kiwi fruits.txt
+  834  grep -B1 kiwi fruits.txt
+  835  grep -c1 kiwi fruits.txt
+  836  grep -C1 kiwi fruits.txt
+  837  code family.txt
+  838  cat family.txt
+  839  cut -d : family.txt
+  840  cut -d : -f 1 family.txt
+  841  cut -d : -f 2  family.txt
+  842  cut -b 1,2 family.txt
+  843  cut -c 1,2 family.txt
+  844  cut -c 1-5 family.txt
+  845  cut -d : -c 1-8  family.txt
+  846  cut -d : -c 1-5  family.txt
+  847  cut -c 1-8  family.txt
+  848  cat family.txt | tr 'a' 'A'
+  849  cat family.txt 
+  850  code tennis.txt
+  851  cat tennis.txt
+  852  cat tennis.txt | tr 'a-z' 'A-Z'
+  853  code space.txt
+  854  cat space.txt
+  855  cat space.txt | tr -s ""
+  856  cat space.txt | tr -s " "
+  857  cat tennis.txt | wc -l
+  858  cat tennis.txt
+  859  wc -l tennis.txt
+  860  wc -L tennis.txt
+  861  ls
+  862  wc -l family.txt
+  863  cat family.txt
+  864  vi family.txt
+  865  wc -l family.txt
+  866  wc -w tennis.txt
+  867  vi tennis.txt
+  868  wc -l tennis.txt
+  869  wc -w tennis.txt
+  870  wc -c tennis.txt
+  871  vi music.txt
+  872  wc music.txt
+  873  cat music.txt
+  874  sort music.txt
+  875  vi country.txt
+  876  sort -k1 count
+  877  sort -k1 country.txt
+  878  sort -k2 country.txt
+  879  sort -n -k3 country.txt
+  880  ls
+  881  cd Practice/Devops/day2
+  882  ls
+  883  cat music.txt
+  884  ls
+  885  vi music.txt
+  886  sort music.txt | uniq
+  887  ls
+  888  sort music.txt | uniq -c
+  889  sudo apt update -y
+  890  sudo apt upgrade -y
+  891  ls
+  892  cat music.txt
+  893  cat music.txt | sed 's/Le/Rm'
+  894  cat music.txt | sed `s/Le/Rm`
+  895  cat music.txt | sed `s/Le/Rm/`
+  896  cat music.txt | sed 's/Le/Rm/'
+  897  cat music.txt
+  898  who |wc
+  899  who
+  900  find /etc
+  901  find /
+  902  find / -name *.conf
+  903  find / -name "*.conf"
+  904  find / -type d -name "*.bak"
+  905  find . -newer country.txt
+  906  ls
+  907  cd
+  908  ls
+  909  cd Practice
+  910  ls
+  911  tar cvzf Devops
+  912  cp -r Devops Devopsbackup
+  913  ls
+  914  tar cvzf Devopsbackup.tar.gz
+  915  tar cvzf Devopsbackup
+  916  tar cvzf Devopsbackup.tar.gz Devopsbackup
+  917  ls
+  918  tar xvzf Devopsbackup.tar.gz
+  919  ls
+  920  rm -rf Devopsbackup
+  921  tar xvzf Devopsbackup.tar.gz
+  922  la
+  923  ls
+  924  rm -rf Devopsbackup
+  925  rm -rf Devopsbackup.tar.gz
+  926  ls
+  927  cd Devops
+  928  ls
+  929  cd day2
+  930  ls
+  931  gzip sample.txt2 
+  932  ls
+  933  guzip sample.txt2.gz
+  934  gunzip sample.txt2.gz
+  935  ls
+  936  gzip sample.txt2 
+  937  ls
+  938  zcat sample.txt2.gz
+  939  tree
+  940  zmore sample.txt2.gz
+  941  bzip2 s
+  942  bzip2 sample.txt2.gz
+  943  ls
+  944  bzcat sample.txt2.gz.bz2
+  945  bzmore sample.txt2.gz.bz2
+  946  ls
+  947  cat music.txt
+  948  grep -E 'i|d' music.txt
+  949  cat >list
+  950  cat list
+  951  grep -E 'o*' music.txt
+  952  grep -E 'o*' list
+  953  grep -E 'o+' list
+  954  cat music.txt
+  955  ls
+  956  grep n$ music.txt
+  957  grep $n music.txt
+  958  grep L^  music.txt
+  959  grep ^L  music.txt
+  960  sudo su -
+  961  sudo su
+  962  sudo apt update -y
+  963  sudo apt upgrade -y
+  964  ls
+  965  cd Devops
+  966  cd 
+  967  cd Practice
+  968  ls
+  969  cd Devops
+  970  ls
+  971  cd day
+  972  cd day2
+  973  ls
+  974  tree
+  975  rm -rf foo
+  976  ls
+  977  tree
+  978  ls -lh
+  979  lc
+  980  lc -lh
+  981  lc -lrS
+  982  lc
+  983  ls
+  984  cd Practice
+  985  ls
+  986  cd Devops
+  987  cd Devops/day2
+  988  ls
+  989  cd day2
+  990  ls
+  991  sudo apt update -y
+  992  ls
+  993  cat /etc/passwd
+  994  head -5 /etc/passwd
+  995  tail -5 /etc/passwd
+  996  sudo apt update -y
+  997  cd Practice/Devops/day2
+  998  ls
+  999  history -a
+ 1000  ls
+ 1001  history -w ~/history.txt
+ 1002  ls
+ 1003  history -w history.txt
+ 1004  touch history.txt
+ 1005  history -w history.txt
+ 1006  history > history.txt
+ 1007  cat history
+ 1008  cat history.txt
+ 1009  history
+ 1010  cat /etc/passwd
+ 1011  useradd -m -d /home/muskan -c "spouse" -s /bin/bash muskan
+ 1012  sudo useradd -m -d /home/muskan -c "spouse" -s /bin/bash muskan
+ 1013  cat /etc/passwd
+ 1014  sudo su muskan
+ 1015  cat /etc/passwd
+ 1016  tail -1 /etc/passwd
+ 1017  sudo usermod -c "wifey" muskan
+ 1018  tail -1 /etc/passwd
+ 1019  chsh -l
+ 1020  chsh
+ 1021  cat /etc/shell
+ 1022  cat /etc/shells
+ 1023  sudo userdel -r muskan
+ 1024  tail -1 /etc/passwd
+ 1025  sudo useradd -m -d /home/serena -c "serena Williams" serena
+ 1026  tail -1 /etc/passwd
+ 1027  sudo useradd -m -c "Venus Williams" -s /bin/bash Venus
+ 1028  tail -2 /etc/passwd
+ 1029  sudo apt update -y
+ 1030  ls
+ 1031  cd Devops
+ 1032  cd
+ 1033  cd Practice/Devops/day2
+ 1034  tail -2 /etc/passwd
+ 1035  passwd serena
+ 1036  sudo passwd serena
+ 1037  tail -2 /etc/shadow
+ 1038  sudo tail -2 /etc/shadow
+ 1039  sudo passwd -d serena
+ 1040  sudo tail -2 /etc/shadow
+ 1041  tail -2 /etc/passwd
+ 1042  sudo userdel -r serena
+ 1043  sudo userdel -r Venus
+ 1044  tail -2 /etc/passwd
+ 1045  sudo useradd -m -s /bin/bash inge\nsudo useradd -m -s /bin/bash katrien\nsudo useradd -m -s /bin/bash katrien\nsudo useradd -m -s /bin/bash sandra\nsudo useradd -m -s /bin/bash annelies
+ 1046  tail -5 /etc/passwd
+ 1047  sudo groupadd tennis\nsudo groupadd football\nsudo groupadd snooker\nsudo groupadd formulal\nsduo groupadd salsa
+ 1048  sudo groupadd salsa
+ 1049  tail -6 /etc/groups
+ 1050  tail -6 /etc/group
+ 1051  ls
+ 1052  cd Practice/Devops/day2
+ 1053  ls
+ 1054  lc
+ 1055  tail -6 /etc/group
+ 1056  groups
+ 1057  sudo groups
+ 1058  sudo usermod -a -G tennis inge\nsudo usermod -a -G tennis katrien\nsudo usermod -a -G salsa katrien\nsudo usermod -a -G snooker sandra\nsudo usermod -a -G formulal annelies
+ 1059  tail -6 /etc/group
+ 1060  sudo groupmod -n cricket tennis
+ 1061  tail -6 /etc/group
+ 1062  sudo groupdel cricket
+ 1063  tail -6 /etc/group
+ 1064  sudo groupadd tennis, football, sports
+ 1065  sudo groupadd tennis; sudo groupadd football; sudo groupadd sports
+ 1066  tail -6 /etc/group
+ 1067  tail -5 /etc/passwd
+ 1068  tail -8 /etc/passwd
+ 1069  ls
+ 1070  sudo groupadd tennis; sudo groupadd football; sudo groupadd sports\n
+ 1071  sudo usermod -a -G tennis,sports venus\nsudo groupmod -n foot football\nsudo useradd -m serena
+ 1072  sudo useradd -m venus\n
+ 1073  sudo usermod -a -G tennis,sports venus\nsudo groupmod -n foot football\nsudo useradd -m serena
+ 1074  tail -8 /etc/passwd
+ 1075  tail -8 /etc/group
+ 1076  tail -11 /etc/group
+ 1077  sudo groupdel snooker,tennis
+ 1078  sudo groupdel snooker, tennis
+ 1079  sudo groupdel snooker
+ 1080  sudo groupdel formulal
+ 1081  sudo groupdel salsa
+ 1082  sudo groupdel tennis
+ 1083  sudo groupdel foot
+ 1084  tail -11 /etc/group
+ 1085  sudo groupdel sports
+ 1086  tail -11 /etc/group
+ 1087  sudo userdel -r inge
+ 1088  sudo userdel -r katrien
+ 1089  sudo userdel -r sandra
+ 1090  sudo userdel -r annelies
+ 1091  sudo userdel -r serena
+ 1092  sudo userdel -r venus
+ 1093  tail -11 /etc/group
+ 1094  tail -11 /etc/passwd
+ 1095  cd Practice/Devops/day2
+ 1096  ls
+ 1097  ls -lh
+ 1098  chgrp root list
+ 1099  sudo chgrp root list
+ 1100  ls -lh
+ 1101  sudo chown root list
+ 1102  ls -lh
+ 1103  cat list
+ 1104  sudo chown ravi:ravi list
+ 1105  cat list
+ 1106  ls -lh
+ 1107  ls
+ 1108  touch myfile.txt
+ 1109  ls -lh
+ 1110  chmod +x myfile.txt
+ 1111  ls -lh
+ 1112  touch secondfile.txt
+ 1113  ls -lh
+ 1114  chmod 0775 secondfile.txt
+ 1115  ls -lh
+ 1116  ln list list_hardlink
+ 1117  ls -lh
+ 1118  rm -rf list
+ 1119  ls -lh
+ 1120  cat list_hardlink
+ 1121  ln -s list_hardlink list_soft
+ 1122  ls -lh
+ 1123  rm -rf list_hardlink
+ 1124  ls -lh
+ 1125  cat list_soft
+ 1126  cat list_soft2
+ 1127  cat list_soft@
+ 1128  ls
+ 1129  lc
+ 1130  rm -rf list_soft
+ 1131  ls
+ 1132  history
+ 1133  ls
