@@ -1,0 +1,14 @@
+---
+- name: unistall apache2
+  hosts: all
+  become:  true
+  tasks:
+  - name: stop the service
+    service:
+      name: apache2
+      state: stopped
+  - name: unistall the apache2
+    apt:
+      name: apache2
+      state: absent
+...
