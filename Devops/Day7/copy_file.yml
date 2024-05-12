@@ -1,0 +1,14 @@
+---
+- name: copy the file
+  hosts: all
+  become: true
+  tasks:
+  - name: copy the file
+    copy:
+      src: "/root/hellofile"
+      dest: "/root/first_dir/"
+      mode: "0644"
+      owner: root
+      group: root
+      remote_src: true
+...
