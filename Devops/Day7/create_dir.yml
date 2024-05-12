@@ -1,0 +1,10 @@
+---
+- name: Create the dir
+  hosts: all
+  become: true
+  tasks:
+  - name: create the dir
+    file:
+      path: "/root/first_dir"
+      state: directory
+...

@@ -1,0 +1,10 @@
+---
+- name: Delete the dir
+  hosts: all
+  become: true
+  tasks:
+  - name: delete the dir
+    file:
+      path: "/root/first_dir"
+      state: absent
+...
