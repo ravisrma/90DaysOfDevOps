@@ -1,0 +1,10 @@
+---
+- name: Installing multi-package playbook
+  become: true
+  hosts: all
+  tasks:
+  - name: Installing multi-package
+    apt:
+      name: ['git', 'curl', 'wget']
+      state: present
+...

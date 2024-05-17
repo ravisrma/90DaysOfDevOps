@@ -1,0 +1,36 @@
+---
+- name: This playbook installs httpd
+  become: true
+  hosts: all
+  tasks:
+  - name: Installing httpd package
+    yum:
+      name: httpd
+      state: latest
+    when: ansible_os_family == "RedHat"  
+  
+  - name: starting service
+    service:
+      name: httpd
+      state: started 
+    when: ansible_os_family == "RedHat"
+
+  - name: Installing apache2 package
+    apt:
+      name: apache2
+      state: latest
+    when: ansible_os_family == "Debian"
+
+  - name: starting service
+    service:
+      name: apache2
+      state: started 
+    when: ansible_os_family == "Debian"  
+
+  - name: Deploy webpage
+    copy:
+      src: /root/index.html
+      dest: /var/www/html/index.html
+      mode: 0666
+      remote_src: true
+...

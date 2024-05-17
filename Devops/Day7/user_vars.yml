@@ -1,0 +1,11 @@
+---
+- name: This playbook for user by vars
+  become: true
+  hosts: all
+  vars:
+    user: muskan
+  tasks:
+  - name: Create the user
+    user:
+      name: "{{user}}"
+...

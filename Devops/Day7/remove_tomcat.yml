@@ -1,0 +1,15 @@
+---
+- name: Playbook for remove tomcat
+  become: true
+  hosts: all
+  tasks:
+  - name: Command for remove tomcat
+    shell: |
+      sudo systemctl stop tomcat
+      sudo apt-get purge tomcat*
+      sudo rm -rf /etc/tomcat*
+      sudo rm -rf /var/lib/tomcat*
+      sudo rm -rf /var/log/tomcat*
+      sudo deluser tomcat
+      sudo delgroup tomcat
+      sudo find / -type f -name "tomcat*"
