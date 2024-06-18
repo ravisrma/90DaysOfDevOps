@@ -9,3 +9,5 @@ ENV name=Ravi
 COPY testfile /tmp/
 ADD test.tar.gz /tmp/
 ##########################################
+FROM ubuntu
+VOLUME [ "/data" ]
