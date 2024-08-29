@@ -1,0 +1,1 @@
+sudo systmectl start nginx
