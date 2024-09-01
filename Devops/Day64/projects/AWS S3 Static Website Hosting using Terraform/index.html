@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover delicious food and recipes from around the world.">
+    <title>Gourmet Delights</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f8f8f8;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: #d35400;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #e67e22;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #d35400;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 90vh;
+            overflow: hidden;
+        }
+
+        .hero-slider {
+            display: flex;
+            position: relative;
+            width: 300%;
+            height: 100%;
+        }
+
+        .hero-slider img {
+            width: 100%;
+            height: 90vh;
+            object-fit: cover;
+        }
+
+        .hero-slider img.active {
+            opacity: 1;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 2;
+            color: #fff;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero a {
+            background: #e67e22;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .hero a:hover {
+            background: #d35400;
+        }
+
+        /* Slider Controls */
+        .slider-controls {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            z-index: 3;
+        }
+
+        .slider-controls span {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .slider-controls span:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 60px 20px;
+            background: #ecf0f1;
+        }
+
+        .feature {
+            width: 30%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Menu Section with Slider */
+        .menu {
+            background: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .menu-slider {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .menu-slider-inner {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+
+        .menu-item {
+            min-width: 33.333%;
+            box-sizing: border-box;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .menu-item img {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .menu-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .menu-item p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Slider Controls */
+        .menu-controls {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+        }
+
+        .menu-controls span {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .menu-controls span:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .contact {
+            padding: 60px 20px;
+            background: #d35400;
+            color: #fff;
+            text-align: center;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #e67e22;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .contact label {
+            display: block;
+            text-align: left;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .contact input:focus,
+        .contact textarea:focus {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            outline: none;
+        }
+
+        .contact button {
+            padding: 15px 30px;
+            background: #c0392b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .contact button:hover {
+            background: #a93226;
+        }
+
+        footer {
+            background: #e67e22;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gourmet Delights</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Recipes</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="hero">
+        <div class="hero-slider">
+            <img src="https://source.unsplash.com/1200x800/?pasta" alt="Delicious Pasta" class="active">
+            <img src="https://source.unsplash.com/1200x800/?pizza" alt="Gourmet Pizza">
+            <img src="https://source.unsplash.com/1200x800/?dessert" alt="Delicious Dessert">
+        </div>
+        <div class="slider-controls">
+            <span id="prev-hero">&lt;</span>
+            <span id="next-hero">&gt;</span>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to Gourmet Delights</h1>
+            <p>Indulge in the finest culinary experiences.</p>
+            <a href="#menu">Explore Our Menu</a>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <img src="https://source.unsplash.com/80x80/?ingredients" alt="Fresh Ingredients">
+            <h3>Fresh Ingredients</h3>
+            <p>We use only the freshest ingredients in our dishes.</p>
+        </div>
+        <div class="feature">
+            <img src="https://source.unsplash.com/80x80/?chef" alt="Expert Chefs">
+            <h3>Expert Chefs</h3>
+            <p>Our chefs are highly skilled and passionate about food.</p>
+        </div>
+        <div class="feature">
+            <img src="https://source.unsplash.com/80x80/?restaurant" alt="Cozy Atmosphere">
+            <h3>Cozy Atmosphere</h3>
+            <p>Enjoy your meal in a warm and inviting setting.</p>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-slider">
+            <div class="menu-slider-inner">
+                <div class="menu-item">
+                    <img src="https://source.unsplash.com/400x300/?pasta" alt="Signature Pasta">
+                    <h3>Signature Pasta</h3>
+                    <p>Our signature pasta, a favorite among our customers.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://source.unsplash.com/400x300/?pizza" alt="Gourmet Pizza">
+                    <h3>Gourmet Pizza</h3>
+                    <p>A gourmet pizza made with the finest ingredients.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://source.unsplash.com/400x300/?dessert" alt="Delicious Dessert">
+                    <h3>Delicious Dessert</h3>
+                    <p>A dessert that's the perfect end to your meal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu-controls">
+            <span id="prev-menu">&lt;</span>
+            <span id="next-menu">&gt;</span>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gourmet Delights. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Hero Slider JavaScript
+        const heroImages = document.querySelectorAll('.hero-slider img');
+        let currentHeroIndex = 0;
+
+        document.getElementById('next-hero').addEventListener('click', () => {
+            heroImages[currentHeroIndex].classList.remove('active');
+            currentHeroIndex = (currentHeroIndex + 1) % heroImages.length;
+            heroImages[currentHeroIndex].classList.add('active');
+        });
+
+        document.getElementById('prev-hero').addEventListener('click', () => {
+            heroImages[currentHeroIndex].classList.remove('active');
+            currentHeroIndex = (currentHeroIndex - 1 + heroImages.length) % heroImages.length;
+            heroImages[currentHeroIndex].classList.add('active');
+        });
+
+        // Menu Slider JavaScript
+        const menuSliderInner = document.querySelector('.menu-slider-inner');
+        const menuItems = document.querySelectorAll('.menu-item');
+        let currentMenuIndex = 0;
+
+        document.getElementById('next-menu').addEventListener('click', () => {
+            currentMenuIndex = (currentMenuIndex + 1) % menuItems.length;
+            menuSliderInner.style.transform = `translateX(-${currentMenuIndex * 100}%)`;
+        });
+
+        document.getElementById('prev-menu').addEventListener('click', () => {
+            currentMenuIndex = (currentMenuIndex - 1 + menuItems.length) % menuItems.length;
+            menuSliderInner.style.transform = `translateX(-${currentMenuIndex * 100}%)`;
+        });
+    </script>
+</body>
+
+</html>
